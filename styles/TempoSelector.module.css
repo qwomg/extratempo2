@@ -1,0 +1,35 @@
+.tempoSelectorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tempoLabel {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.tempoInput {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tempoInput:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.tempoRange {
+  width: 300px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .tempoRange {
+    width: 100%;
+  }
+}

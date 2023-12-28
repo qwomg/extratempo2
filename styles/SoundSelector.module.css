@@ -1,0 +1,38 @@
+.soundSelectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.soundSelectorLabel {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.soundSelector {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.soundSelector:focus {
+  border-color: #0070f3;
+}
+
+.soundSelectorOption {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.soundSelectorOption:last-child {
+  border-bottom: none;
+}
+
+.soundSelectorOption:hover,
+.soundSelectorOption:focus {
+  background-color: #f0f0f0;
+}
