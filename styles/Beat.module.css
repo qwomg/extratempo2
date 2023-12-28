@@ -1,0 +1,28 @@
+.beat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.beat.accented {
+  background-color: #ffcc00;
+}
+
+.beat.notAccented {
+  background-color: #cccccc;
+}
+
+.beat.muted {
+  background-color: #e0e0e0;
+}
+
+.beat.highlighted {
+  transform: scale(1.1);
+  background-color: #66ff66;
+}
